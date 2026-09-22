@@ -1,0 +1,4 @@
+order_id,customer_name,order_amount
+110,Karthik,500.00
+111,Divya,INVALID
+112,Ramesh,750.00
