@@ -19,6 +19,20 @@ This module demonstrates DevOps practices for data engineering using Databricks 
 
 ## Job Workflow
 Unit Tests → Integration Tests → Final Validation
+## Databricks Job Execution
+
+**Job Name:** `Module4_DevOps_Testing_Job`
+
+The job contains three dependent tasks:
+
+1. **Unit_Tests** — Executes PySpark unit tests using Pytest.
+2. **Integration_Tests** — Validates that the transformation functions work together correctly.
+3. **Final_Validation** — Checks the final customer count against the expected count.
+
+**Execution Status:** Successful
+
+All three tasks completed successfully in Databricks.
+
 
 ## Validation Results
 All three tasks completed successfully in the Databricks Job.
